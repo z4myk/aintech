@@ -4,9 +4,13 @@ body{
   }
 
 .wrapper{
-  background: center fixed url('./assets/wallpaper.jpg');
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), center fixed url('./assets/wallpaper.jpg');
   height: 100vh;
-
+  background-size: cover;
+  opacity: 1;
 }
 
 .titulo{
@@ -23,4 +27,39 @@ body{
 
 }
 
+@media all and (min-width: 1920px) and (max-width: 4096px) {
+  .titulo{
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 450px;
+    color:white;
+    text-shadow: 0 0 5px black;
+  }
+  
+  .headerButton{
+    text-decoration: none !important;
+    font-size: 1.5rem !important;
+  
+  }
+
+}
+
+/* CSS servicios */
+.title-services{
+  margin: 1rem 1rem;
+}
+
+.hr-services{
+  margin: auto;
+  margin-bottom: 1rem;
+  width: 60%;
+  border-width: 2px;
+  color: black;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
