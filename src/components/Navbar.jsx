@@ -12,7 +12,7 @@ const Navbar = () => {
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav mx-5 ms-auto">
         <a class="nav-link"  href="#nosotros">Sobre nosotros</a>
-        <a class="nav-link" href="#">Servicios</a>
+        <a class="nav-link" href="#servicios">Servicios</a>
         <a class="nav-link" href="#">Planes</a>
         <a class="nav-link" href="#">Contacto</a>
       </div>
