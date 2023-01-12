@@ -1,12 +1,12 @@
 body{
     font-family: 'Sofia Sans', sans-serif !important; 
     margin: 0;
+    scroll-behavior: smooth !important;
   }
 
 .wrapper{
   background: center fixed url('./assets/wallpaper.jpg');
   height: 100vh;
-
 }
 
 .titulo{
