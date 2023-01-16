@@ -1,29 +1,32 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHandshakeAlt, faMagnifyingGlass, faMobile, faMobileAlt, faTowerCell, faUserShield } from '@fortawesome/free-solid-svg-icons'
+import devfocus from '../assets/devfocus.png'
+import responsive from '../assets/responsive.png'
+import seo from '../assets/seo.png'
 export const About = () => {
     return (
         <>
-            <section className="container"  data-aos="zoom-in"  data-aos-duration="2000">
-                <div>
-                    <h2 className="text-center mt-5 mb-5">Sobre <span className="text-warning" id="nosotros">Nosotros</span></h2>
+            <section className="mb-5 pt-5" id="nosotros" >
+                <div data-aos="zoom-in"  data-aos-duration="2000" >
+                    <h2 className="text-center mb-2">Sobre <span className="titles" >Nosotros</span></h2>
+                    <hr className='hr-titles mb-5' />
                 </div>
-                <div>
-                    <div className="d-flex justify-content-around text-center mb-5 shadow-lg p-5 ">
-                        <div className="mx-2">
-                           <FontAwesomeIcon icon={faMobileAlt} className="fa-2x text-warning" />
-                            <h5 className="mt-2 mb-3">Adaptable a cualquier dispositivo</h5>
-                            <p>Tu web estará optimizada para una mejor experiencia de usuario.</p>
-                        </div>
+                <div data-aos="zoom-in"  data-aos-duration="2000" className="container">
+                    <div className="d-flex justify-content-around text-center mb-5 shadow-lg p-5 cardsAbout-responsive ">
                         <div className="mx-2" >
-                        <FontAwesomeIcon icon={faHandshakeAlt} className="fa-2x text-warning" />
+                        <img src={devfocus} alt="developer" className="w-50"/>
                         <h5 className="mt-2 mb-3">Te escuchamos</h5>
-                        <p>Analizamos cada idea para llegar a la solución en el menor tiempo posible.</p>
+                        <p  className=" text-secondary">Analizamos cada idea para llegar a la solución en el menor tiempo posible.</p>
+                        </div>
+                        <div className="mx-2 ">
+                           <img src={responsive} alt="responsive" className="w-50"/>
+                            <h5 className="mt-2 mb-3">Adaptable a cualquier dispositivo</h5>
+                            <p className=" text-secondary container">Tu web estará optimizada para una mejor experiencia de usuario.</p>
                         </div>
                         <div className="mx-2">
-                        <FontAwesomeIcon icon={faMagnifyingGlass} className="fa-2x text-warning"  />
+                        <img src={seo} alt="SEO" className="w-50"/>
                         <h5 className="mt-2 mb-3">SEO</h5>
-                        <p>Tendrás presencia en Google y los buscadores más utilizados.</p>
+                        <p  className=" text-secondary">Tendrás presencia en Google y los buscadores más utilizados.</p>
                         </div>
                       
                     </div>
