@@ -6,13 +6,13 @@ import seo from '../assets/seo.png'
 export const About = () => {
     return (
         <>
-            <section className="mb-5 pt-5" id="nosotros" >
+            <section className="mb-5 pt-5 " id="nosotros" >
                 <div data-aos="zoom-in"  data-aos-duration="2000" >
                     <h2 className="text-center mb-2">Sobre <span className="titles" >Nosotros</span></h2>
                     <hr className='hr-titles mb-5' />
                 </div>
                 <div data-aos="zoom-in"  data-aos-duration="2000" className="container">
-                    <div className="d-flex justify-content-around text-center mb-5 shadow-lg p-5 cardsAbout-responsive ">
+                    <div className="d-flex justify-content-center text-center mb-5 shadow-lg p-5 cardsAbout-responsive ">
                         <div className="mx-2" >
                         <img src={devfocus} alt="developer" className="w-50"/>
                         <h5 className="mt-2 mb-3">Te escuchamos</h5>

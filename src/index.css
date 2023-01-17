@@ -1,7 +1,8 @@
-body{
+html, body{
     font-family: 'Sofia Sans', sans-serif !important; 
     margin: 0;
     scroll-behavior: smooth !important;
+    overflow-x: hidden !important;
     
   }
 
@@ -160,6 +161,28 @@ p { max-width: 75ch }
 .logoFacebook{
   width: 38px;
 }
+.logoFacebook:hover{
+  filter: grayscale(90%);
+}
 .logoInstagram{
   width: 45px;
+}
+.logoInstagram:hover{
+  filter: grayscale(90%);
+}
+
+.logoAintech{
+  width: 50px;
+}
+.logoAintech:hover{
+  filter: grayscale(90%);
+  cursor: pointer;
+}
+.nav-link:hover{
+  color:#6F3AFF !important;
+  border-bottom: 1px solid #8559fc;
+}
+
+.backgroundNav{
+  background-color: #8559fc;
 }

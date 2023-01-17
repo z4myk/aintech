@@ -18,7 +18,7 @@ export const Plans = () => {
             data-aos-duration="2000"
           >
             <div
-              className="bg-light shadow-lg mx-5 pb-3 cardcito cardPlan"
+              className="bg-light shadow-lg mx-5 pb-3 cardcito cardPlan mt-2"
               data-aos="fade-left"
               data-aos-duration="2000"
               >
@@ -42,6 +42,7 @@ export const Plans = () => {
 
                 <p className="text-center text-dark">ARS$</p>
                 <div className="d-flex justify-content-center">
+
                   <span className="text-center titles descuentoPlans">
                     <del>$28.000</del>
                   </span>
@@ -49,15 +50,19 @@ export const Plans = () => {
                     $25.000
                   </span>
                 </div>
+
+
                 <p className="text-center text-dark mt-5">CLP$</p>
-                <div className="d-flex justify-content-center">
+                  <div className="d-flex justify-content-center">
                   <span className="text-center titles descuentoPlans">
                     <del>$125.000</del>
                   </span>
                   <span className="text-center titles precioOficialPlans">
                     $120.000
                   </span>
-                </div>
+                  </div>
+
+     
 
                 <hr className="text-dark" />
               </div>
@@ -86,6 +91,9 @@ export const Plans = () => {
                   <li className="">
                     <span className="titles">✔</span> Link a redes sociales{" "}
                   </li>
+                  <li className="">
+                    <span className="titles">✔</span> Google Maps{" "}
+                  </li>
                 </ul>
               </div>
               <button className=" btn btn-primary  mx-5 w-75">
@@ -94,7 +102,7 @@ export const Plans = () => {
             </div>
 
             <div
-              className="bg-light shadow-lg py-5 cardPlan cardcito" 
+              className="bg-light shadow-lg py-5 cardPlan cardcito mt-2" 
               data-aos="fade-right"
               data-aos-duration="2000"
             >
@@ -117,7 +125,6 @@ export const Plans = () => {
                   $40.000
                 </span>
               </div>
-
               <p className="text-center text-dark mt-5">CLP$</p>
                 <div className="d-flex justify-content-center">
                   <span className="text-center titles descuentoPlans">
@@ -127,6 +134,8 @@ export const Plans = () => {
                     $180.000
                   </span>
                 </div>
+
+          
 
               <hr className="text-dark" />
               <div className="text-dark">
@@ -149,6 +158,9 @@ export const Plans = () => {
                   </li>
                   <li>
                     <span className="titles">✔</span> Link a redes sociales{" "}
+                  </li>
+                  <li className="">
+                    <span className="titles">✔</span> Google Maps{" "}
                   </li>
                   <li>
                     <span className="titles">✔</span> 4 Secciones{" "}

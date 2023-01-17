@@ -10,9 +10,9 @@ import { faCode, faGear, faPager, faSatellite, faStoreAlt} from '@fortawesome/fr
 export const Services = () => {
     return (
         <>
-            <section className="pt-2" id='servicios'  >
+            <section className="pt-2 container" id='servicios'  >
 
-                <div className=' mb-5 mt-5' data-aos="zoom-in"  data-aos-duration="2000">
+                <div className=' mb-5 mt-5 container' data-aos="zoom-in"  data-aos-duration="2000">
                 <h2 className='text-center mb-2'>Nuestros <span className='titles'>Servicios</span></h2>
                 <hr className='hr-titles mb-5' />
                     <div className='row text-center'>

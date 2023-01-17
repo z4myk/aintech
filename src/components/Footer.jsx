@@ -2,12 +2,13 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import instagram from '../assets/instagram.png'
 import facebook from '../assets/facebook.png'
+import aintechlogo from '../assets/aintechlogo.png'
 import { faEnvelope, faVoicemail } from '@fortawesome/free-solid-svg-icons'
 export const Footer = () => {
     return (
         <footer className="bg-light py-5 mt-5 text-center">
-            <div className="row container ">
-                <div className="col-md-3 col-sm-12">
+            <div className="row ">
+                <div className="col-md-4 col-sm-12">
                 <h5 className="titles">Contacto:</h5>
                 <ul>
                     <li>
@@ -17,7 +18,7 @@ export const Footer = () => {
                     </li>
                 </ul>
                 </div>
-                <div className="col-md-6 col-sm-12">
+                <div className="col-md-4 col-sm-12">
                     <h5 className="titles">navegación</h5>
                 <ul>
                     <li><a href="#nosotros">Sobre nosotros</a></li>
@@ -27,16 +28,19 @@ export const Footer = () => {
                 </ul>
                 </div>
 
-                <div className="col-md-3 col-sm-12">
+                <div className="col-md-4 col-sm-12">
                 <h5 className="titles">Redes sociales</h5>
-                <ul>
-                    <li className="titles"><img src={instagram} alt="Logo Instagram" className="logoInstagram" />Instagram</li>
+                <ul className="d-flex justify-content-center">
+                    <li className="titles"><img src={instagram} alt="Logo Instagram" className="logoInstagram" /></li>
                   
-                 <li  className="titles"><img src={facebook} alt="Logo Instagram" className="logoFacebook mx-1" />Facebook</li>
+                 <li  className="titles"><img src={facebook} alt="Logo Instagram" className="logoFacebook mx-1" /></li>
                 </ul>
                 </div>
             </div>
-            <p className="text-center mt-5 small">© Derechos de autor Aintech. Todos los derechos reservados 2023</p>
+            <div className="d-flex justify-content-center align-items-center">
+            <p className="text-center mt-5 small">© Derechos de autor Aintech. Todos los derechos reservados 2023 <img src={aintechlogo} alt="Aintech LOGO" className="logoAintech" /></p>
+
+            </div>
         </footer>
     )
 }

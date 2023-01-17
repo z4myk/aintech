@@ -5,7 +5,7 @@ export const Contact = () => {
         <>
             <section className="bg-light p-5 wrapper2 d-flex justify-content-center" id="contacto">
                 <div>
-                    <form className="py-5 w-100">
+                    <form className=" w-100">
                         <h2 className="titles text-center">Contactanos</h2>
                         <p className="text-light text-center">Envia tu consulta, estamos para ayudarte.</p>
                         <div className="text-light">
