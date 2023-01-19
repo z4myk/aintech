@@ -59,7 +59,7 @@ export const Plans = () => {
                 <hr className="text-dark" />
               </div>
               <div className="text-dark">
-                <ul className="text-center py-5">
+                <ul className="text-center mt-5 mb-5">
                   <li className="">
                     {" "}
                     <span className="titles">✔</span> Certificado SSL{" "}

@@ -66,6 +66,7 @@ html, body{
 
 ul {
   list-style-type: none;
+  padding-right: 2rem;
 }
 
 .descuentoPlans{
@@ -75,22 +76,51 @@ ul {
 .precioOficialPlans{
   font-size: 22px;
 }
-@media all and (min-width: 1920px) and (max-width: 4096px) {
+@media all and (min-width: 1440px) and (max-width: 4096px) {
   .titulo{
     font-size: 4rem;
     text-align: center;
     padding-top: 450px;
-    color:white;
+    color:white !important;
+    text-shadow: 0 0 5px black;
+  }
+  .headerButton{
+    text-decoration: none !important;
+    font-size: 1.5rem !important;
+  }
+
+  form.w-100{
+    padding-top: 4rem !important;
+    margin-top: 4rem !important;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1365px) {
+  .titulo{
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 450px;
+    color:white !important;
     text-shadow: 0 0 5px black;
   }
   
   .headerButton{
     text-decoration: none !important;
     font-size: 1.5rem !important;
-    color: #6F3AFF !important;
-  
   }
 
+  form.w-100{
+    padding-top: 4rem !important;
+    margin-top: 4rem !important;
+  }
+}
+
+@media all and (min-width: 375px) and (max-width: 414px) {
+
+  form.w-100{
+    padding-top: 2rem !important;
+    margin-top: 2rem !important;
+  }
 }
 
 /* CSS servicios */

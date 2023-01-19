@@ -44,7 +44,7 @@ export const Contact = () => {
         <>
             <section className="bg-light p-5 wrapper2 d-flex justify-content-center" id="contacto">
                 <div>
-                    <form className=" w-100" onSubmit={handleSubmit}>
+                    <form className="w-100" onSubmit={handleSubmit}>
 
                         <h2 className="titles text-center">Contactanos</h2>
                         <p className="text-light text-center">Envia tu consulta, estamos para ayudarte.</p>
