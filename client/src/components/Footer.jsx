@@ -13,7 +13,7 @@ export const Footer = () => {
                 <ul>
                     <li>
                         <FontAwesomeIcon icon={faEnvelope} className="titles" />
-                        <span className="mx-2">aintech@gmail.com</span>
+                        <span className="mx-2">aintechsoftware@gmail.com</span>
 
                     </li>
                 </ul>
@@ -31,9 +31,9 @@ export const Footer = () => {
                 <div className="col-md-4 col-sm-12">
                 <h5 className="titles">Redes sociales</h5>
                 <ul className="d-flex justify-content-center">
-                    <li className="titles"><img src={instagram} alt="Logo Instagram" className="logoInstagram" /></li>
+                    <li className="titles"><a target="_blank" href="https://www.instagram.com/aintech.dev/"><img src={instagram} alt="Logo Instagram" className="logoInstagram" /></a></li>
                   
-                 <li  className="titles"><img src={facebook} alt="Logo Instagram" className="logoFacebook mx-1" /></li>
+                 <li  className="titles"><a target="_blank" href="https://www.facebook.com/Aintechsoftware"><img src={facebook} alt="Logo Instagram" className="logoFacebook mx-1" /></a></li>
                 </ul>
                 </div>
             </div>
