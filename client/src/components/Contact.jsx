@@ -47,7 +47,7 @@ export const Contact = () => {
                     <form className="w-100" onSubmit={handleSubmit}>
 
                         <h2 className="titles text-center">Contactanos</h2>
-                        <p className="text-light text-center">Envia tu consulta, estamos para ayudarte.</p>
+                        <p className="text-light text-center">Envía tu consulta, estamos para ayudarte.</p>
                         <div className="text-light">
                             <p>Nombre:</p>
                             <input className="w-100 borderInputs bg-dark p-2 text-light" type="name" value={nombre} onChange={ (e) => setNombre(e.target.value)} />

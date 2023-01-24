@@ -45,14 +45,14 @@ export const Services = () => {
                                     <img src={eccomerce} alt="Tienda digital" className="w-75 mt-2"/>
                                     <h5 className='title-services'>Tienda Online</h5>
                                     <hr className='hr-services' />
-                                    <p className=" text-secondary">Creamos tu tienda digital </p>
+                                    <p className=" text-secondary">Creamos tu tienda digital. </p>
                                 </div>
 
                                 <div className='col-md-5 mx-5 mb-3 mt-2 shadow border '>
                                     <img src={cartadigital} alt="Carta digital" className="w-100 mt-2"/>
                                     <h5 className='title-services'>Carta digital</h5>
                                     <hr className='hr-services' />
-                                    <p className=" text-secondary">Chau papel! creamos tu carta digital + QR</p>
+                                    <p className=" text-secondary">Chau papel! creamos tu carta digital + QR.</p>
                                 </div>
 
                             </div>

@@ -1,66 +1,65 @@
-html, body{
-    font-family: 'Sofia Sans', sans-serif !important; 
-    margin: 0;
-    scroll-behavior: smooth !important;
-    overflow-x: hidden !important;
-    
-  }
+html,
+body {
+  font-family: 'Sofia Sans', sans-serif !important;
+  margin: 0;
+  scroll-behavior: smooth !important;
+  overflow-x: hidden !important;
 
-.wrapper{
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  ), center fixed url('./assets/wallpaper.jpg');
+}
+
+.wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), center fixed url('./assets/wallpaper.jpg');
   height: 100vh;
   background-size: cover;
   opacity: 1;
 }
 
-.wrapper2{
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.823),
-    rgba(0, 0, 0, 0.5)
-  ), center fixed url('./assets/wallpaper2.jpg');
+.wrapper2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.823),
+      rgba(0, 0, 0, 0.5)), center fixed url('./assets/wallpaper2.jpg');
   height: 100vh;
   background-size: cover;
   opacity: 1;
 }
 
 
-.titulo{
+.titulo {
   font-size: 4rem;
   text-align: center;
   padding-top: 200px;
-  color:white;
+  color: white;
   text-shadow: 0 0 5px black;
 }
 
-.headerButton{
+.headerButton {
   text-decoration: none !important;
   font-size: 1.5rem !important;
-  
-  
+
+
 
 }
 
-.backgroundPlans{
+.backgroundPlans {
   background-color: rgb(220, 220, 220);
 }
-.backgroundInicial{
-  
+
+.backgroundInicial {
+
   height: 1000px;
 }
 
-.cardcito{
+.cardcito {
   cursor: pointer;
 }
-.cardcito:hover{
-  border: 1px solid #6F3AFF ;
-  
+
+.cardcito:hover {
+  border: 1px solid #6F3AFF;
+
 }
 
 
-.cardPlan{
+.cardPlan {
   width: 400px !important;
 }
 
@@ -69,73 +68,107 @@ ul {
   padding-right: 2rem;
 }
 
-.descuentoPlans{
+.descuentoPlans {
   font-size: 12px;
   margin-top: 10px;
 }
-.precioOficialPlans{
+
+.precioOficialPlans {
   font-size: 22px;
 }
+
 @media all and (min-width: 1440px) and (max-width: 4096px) {
-  .titulo{
+  .titulo {
     font-size: 4rem;
     text-align: center;
     padding-top: 450px;
-    color:white !important;
+    color: white !important;
     text-shadow: 0 0 5px black;
   }
-  .headerButton{
+
+  .headerButton {
     text-decoration: none !important;
     font-size: 1.5rem !important;
   }
 
-  form.w-100{
+  form.w-100 {
     padding-top: 4rem !important;
     margin-top: 4rem !important;
   }
 }
 
 @media all and (min-width: 768px) and (max-width: 1365px) {
-  .titulo{
+  .titulo {
     font-size: 4rem;
     text-align: center;
     padding-top: 450px;
-    color:white !important;
+    color: white !important;
     text-shadow: 0 0 5px black;
   }
-  
-  .headerButton{
+
+  .headerButton {
     text-decoration: none !important;
     font-size: 1.5rem !important;
   }
 
-  form.w-100{
+  form.w-100 {
     padding-top: 4rem !important;
     margin-top: 4rem !important;
   }
 }
 
+/* Pantalla celulares */
 @media all and (min-width: 375px) and (max-width: 414px) {
-
-  form.w-100{
+  form.w-100 {
     padding-top: 2rem !important;
     margin-top: 2rem !important;
   }
 }
 
-/* CSS servicios */
-.title-services{
+/* S8+ */
+@media all and (min-width: 280px) and (max-width: 360px) {
+  .titulo {
+    font-size: 2.8rem;
+    text-align: center;
+    padding-top: 18rem;
+    color: white !important;
+    text-shadow: 0 0 5px black;
+  }
+}
+
+/* iPhone */
+@media all and (min-width: 375px) and (max-width: 414px) {
+  .titulo {
+    text-align: center;
+    padding-top: 18rem;
+    color: white !important;
+    text-shadow: 0 0 5px black;
+  }
+}
+
+
+/* Sobre nosotros  */
+@media all and (min-width: 280px) and (max-width: 414px) {
+  .d-flex {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+}
+
+/* Servicios */
+.title-services {
   margin: 1rem 1rem;
 }
 
-.hr-services{
+.hr-services {
   margin: auto;
   margin-bottom: 1rem;
   width: 60%;
   border-width: 2px;
   color: black;
 }
-.hr-titles{
+
+.hr-titles {
   margin: auto;
   margin-bottom: 1rem;
   width: 60%;
@@ -143,76 +176,86 @@ ul {
   color: #6F3AFF;
 }
 
-.row{
+.row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.titles{
+.titles {
   color: #6F3AFF !important;
   cursor: pointer;
 }
-p { max-width: 75ch }
 
-.btn-light:hover{
-  color:#6F3AFF !important;
- 
+p {
+  max-width: 75ch
 }
 
-.borderInputs{
+.btn-light:hover {
+  color: #6F3AFF !important;
+
+}
+
+.borderInputs {
   border: 1px solid #6F3AFF;
-  
+
 }
-.borderInputs:focus{
+
+.borderInputs:focus {
   border-color: #ccc;
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
-  
+
 }
 
 
-.btn-primary{
+.btn-primary {
   background-color: #6F3AFF !important;
   border-color: #6F3AFF !important;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
   background-color: #8559fc !important;
   color: #ccc;
   border-color: #6F3AFF !important;
 }
 
 
-.bg-info{
+.bg-info {
   background-color: #6F3AFF !important;
 }
 
-.logoFacebook{
+.logoFacebook {
   width: 38px;
 }
-.logoFacebook:hover{
-  filter: grayscale(90%);
-}
-.logoInstagram{
-  width: 45px;
-}
-.logoInstagram:hover{
+
+.logoFacebook:hover {
   filter: grayscale(90%);
 }
 
-.logoAintech{
+.logoInstagram {
+  width: 45px;
+}
+
+.logoInstagram:hover {
+  filter: grayscale(90%);
+}
+
+.logoAintech {
   width: 50px;
 }
-.logoAintech:hover{
+
+.logoAintech:hover {
   filter: grayscale(90%);
   cursor: pointer;
 }
-.nav-link:hover{
-  color:#6F3AFF !important;
+
+.nav-link:hover {
+  color: #6F3AFF !important;
   border-bottom: 1px solid #8559fc;
 }
 
-.backgroundNav{
+.backgroundNav {
   background-color: #8559fc;
 }

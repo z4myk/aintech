@@ -31,7 +31,7 @@ export const Plans = () => {
                 <h4 className="text-dark text-center">Landing Page</h4>
                 <p className="text-secondary text-center">
                   Sitio web simple estatico, de una sección ideal para atraer
-                  potenciales clientes y dar a conocer tus servicios
+                  potenciales clientes y dar a conocer tus servicios.
                 </p>
                 <p className="titles text-center mt-4">
                   <b>para comenzar a crecer</b>
@@ -102,11 +102,11 @@ export const Plans = () => {
               data-aos-duration="1000"
             >
               <img src={sitioweb} alt="landing page" className="w-100" />
-              <h4 className="text-dark text-center">Sitio Web Basico</h4>
+              <h4 className="text-dark text-center">Sitio Web Básico</h4>
 
               <p className="text-secondary text-center">
                 Sitio web para pequeñas empresas, con 4 secciones ideal para
-                añadir más información sobre tus productos y/o servicios
+                añadir más información sobre tus productos y/o servicios.
               </p>
               <p className="titles text-center mt-4">
                 <b>para impulsar tus ventas</b>

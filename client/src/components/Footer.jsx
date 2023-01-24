@@ -19,7 +19,7 @@ export const Footer = () => {
                 </ul>
                 </div>
                 <div className="col-md-4 col-sm-12">
-                    <h5 className="titles">navegación</h5>
+                    <h5 className="titles">Navegación</h5>
                 <ul>
                     <li><a href="#nosotros">Sobre nosotros</a></li>
                     <li><a href="#servicios">Servicios</a></li>
