@@ -13,7 +13,7 @@ export const Footer = () => {
                 <ul>
                     <li>
                         <FontAwesomeIcon icon={faEnvelope} className="titles" />
-                        <span className="mx-2">aintechsoftware@gmail.com</span>
+                        <span className="mx-2">soporte@aintech.com.ar</span>
 
                     </li>
                 </ul>

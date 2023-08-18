@@ -47,7 +47,7 @@ export const Plans = () => {
                   </span>
                 </div>
 
-                <p className="text-center text-dark mt-5">CLP$</p>
+                {/* <p className="text-center text-dark mt-5">CLP$</p>
                 <div className="d-flex justify-content-center">
                   <span className="text-center titles descuentoPlans">
                     <del>$123.000</del>
@@ -55,7 +55,7 @@ export const Plans = () => {
                   <span className="text-center titles precioOficialPlans">
                     $120.000
                   </span>
-                </div>
+                </div> */}
                 <hr className="text-dark" />
               </div>
               <div className="text-dark">
@@ -74,7 +74,7 @@ export const Plans = () => {
                   </li>
                   <li className="">
                     {" "}
-                    <span className="titles">✔</span> Hosting 1 año Gratis{" "}
+                    <span className="titles">✔</span> Servicio de Hosting 1 mes Gratis{" "}
                   </li>
                   <li className="">
                     {" "}
@@ -120,7 +120,7 @@ export const Plans = () => {
                   $40.000
                 </span>
               </div>
-              <p className="text-center text-dark mt-5">CLP$</p>
+              {/* <p className="text-center text-dark mt-5">CLP$</p>
               <div className="d-flex justify-content-center">
                 <span className="text-center titles descuentoPlans">
                   <del>$183.000</del>
@@ -128,7 +128,7 @@ export const Plans = () => {
                 <span className="text-center titles precioOficialPlans">
                   $180.000
                 </span>
-              </div>
+              </div> */}
 
               <hr className="text-dark" />
               <div className="text-dark">
@@ -144,7 +144,7 @@ export const Plans = () => {
                     <span className="titles">✔</span> Dominio 1 año Gratis{" "}
                   </li>
                   <li>
-                    <span className="titles">✔</span> Hosting 1 año Gratis{" "}
+                    <span className="titles">✔</span> Servicio de hosting 1 mes Gratis{" "}
                   </li>
                   <li>
                     <span className="titles">✔</span> Link a Whatsapp{" "}

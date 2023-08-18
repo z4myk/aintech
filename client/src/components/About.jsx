@@ -25,8 +25,8 @@ export const About = () => {
                         </div>
                         <div className="mx-2">
                         <img src={seo} alt="SEO" className="w-50"/>
-                        <h5 className="mt-2 mb-3">SEO</h5>
-                        <p  className=" text-secondary">Tendrás presencia en Google y los buscadores más utilizados.</p>
+                        <h5 className="mt-2 mb-3">No te preocupes, tenemos todo cubierto</h5>
+                        <p  className=" text-secondary">creamos software de punta a punta, no tenes que preocuparte de nada nosotros lo hacemos por vos.</p>
                         </div>
                       
                     </div>
