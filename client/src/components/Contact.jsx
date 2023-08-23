@@ -17,7 +17,7 @@ export const Contact = () => {
                 email,
                 mensaje
             }
-            const response = await axios.post("http://localhost:5000/api/sendemail", data)
+            const response = await axios.post("https://aintech-backend-sl5s-dev.fl0.io/api/sendemail", data)
             Swal.fire({
                 position: 'center',
                 icon: 'success',
