@@ -58,7 +58,7 @@ export const Services = () => {
                                     <img src={webhosting} alt="Carta digital" className="w-100 mt-2"/>
                                     <h5 className='title-services'>Servicio Hosting Web Mensual</h5>
                                     <hr className='hr-services' />
-                                    <p className=" text-secondary">tu sitio web siempre estará disponible y en línea para que tus clientes puedan ver tus servicios o productos las 24 horas.</p>
+                                    <p className=" text-secondary">Tu sitio web siempre estará disponible y en línea para que tus clientes puedan ver tus servicios o productos las 24 horas.</p>
                                 </div>
 
                             </div>

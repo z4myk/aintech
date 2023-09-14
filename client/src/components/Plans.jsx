@@ -11,7 +11,7 @@ export const Plans = () => {
             data-aos="zoom-in"
             data-aos-duration="1000"
           >
-            Planes <span className="titles">Basicos</span>
+            Planes <span className="titles">Básicos</span>
           </h2>
           <div className="row" data-aos-duration="1000">
             <div
