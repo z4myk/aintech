@@ -1,27 +1,14 @@
+@import url('https://fonts.cdnfonts.com/css/neutra-text-alt');
+
 html,
 body {
   font-family: 'Sofia Sans', sans-serif !important;
   margin: 0;
   scroll-behavior: smooth !important;
   overflow-x: hidden !important;
+  background-color: #090909 !important;
   
 
-}
-
-.wrapper {
-  background: linear-gradient(rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)), center fixed url('./assets/wallpaper.jpg');
-  height: 100vh;
-  background-size: cover;
-  opacity: 1;
-}
-
-.wrapper2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.823),
-      rgba(0, 0, 0, 0.5)), center fixed url('./assets/wallpaper2.jpg');
-  height: 100vh;
-  background-size: cover;
-  opacity: 1;
 }
 
 
@@ -96,7 +83,43 @@ ul {
     padding-top: 4rem !important;
     margin-top: 4rem !important;
   }
+
+  .tabletImagenMobile{
+display: none !important;
+  }
+
+
+  .imagenServiciosResponsive{
+    display: none !important;
+  }
+  .imagenServiciosResponsive{
+    display: none !important;
+  }
+ 
+  
 }
+
+@media all and (min-width: 500px) and (max-width: 4096px) {
+
+  .imagenServiciosResponsive{
+    display: none !important;
+  }
+
+ 
+
+      .brandingFooterResponsive{
+        display: none !important;
+      }
+
+      /* .textServiciosMobile{
+        display: none !important;
+      } */
+
+    
+
+      
+      
+ }
 
 @media all and (min-width: 768px) and (max-width: 1365px) {
   .titulo {
@@ -116,6 +139,37 @@ ul {
     padding-top: 4rem !important;
     margin-top: 4rem !important;
   }
+  .puntosLaterales{
+    display: none;
+  }
+  .marginServices{
+    margin-top: 0px !important;
+  }
+  
+  .marginServicesBottom{
+    margin-bottom: 0px !important;
+  }
+
+  .imagenServicios{
+    /* width: 750px; */
+   display: none !important; 
+  }
+
+  .imagenServiciosResponsive{
+    display: none !important;
+  }
+
+  .brandingFooter{
+    display: none !important;
+  }
+
+  .headerServicios{
+    display: none !important;
+  }
+
+ 
+ 
+
 }
 
 /* Pantalla celulares */
@@ -124,6 +178,71 @@ ul {
     padding-top: 2rem !important;
     margin-top: 2rem !important;
   }
+
+ .tabletImagen {
+   display: none;
+ }
+
+.imagenDiseño{
+ object-fit: contain !important;
+  width: 310px !important;
+  height: 12px;
+  margin-right: 600px !important;
+ 
+}
+
+.imagenHeader{
+  position: absolute;
+  width: 100% !important;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contenedorImagenHeader{
+  margin-left: 0 !important;
+}
+
+.puntosLaterales{
+  display: none;
+}
+
+.marginServices{
+  margin-top: 0px !important;
+}
+.marginServicesBottom{
+  margin-bottom: 0px !important;
+}
+
+.imagenServicios{
+  /* width: 750px; */
+ display: none !important; 
+}
+
+.imagenServiciosResponsive{
+  display: block !important;
+}
+
+.tabletImagenMobile{
+  display: block !important;
+}
+
+/* .borrarServiciosMobile{
+  display: none !important;
+} */
+
+.serviceResponsive{
+  flex-wrap: wrap;
+}
+
+.brandingFooter{
+  display: none !important;
+}
+
+
+
+
+
 }
 
 /* S8+ */
@@ -135,7 +254,165 @@ ul {
     color: white !important;
     text-shadow: 0 0 5px black;
   }
+
+  .tabletImagen {
+    display: none;
+  }
+
+
+  .PortfolioText{
+    display: flex;
+    justify-content: center;
+    display: none !important;
+  }
+  
+  .PortfolioMobile{
+    display: block !important;
+  }
+
+  .widthPortfolio{
+    width: 330px !important;
+  
+  }
+
+  .contenedorImagenHeader{
+    margin-left: 0 !important;
+  }
+
+  
+  .marginServices{
+    margin-top: 0px !important;
+  }
+
+  .marginServicesBottom{
+    margin-bottom: 0px !important;
+  }
+
+  
+  
+  .imagenServiciosResponsive{
+    display: block !important;
+  }
+
+  .tabletImagenMobile{
+    display: block !important;
+  }
+
+  .brandingFooter{
+    display: none !important;
+  }
+
+  
+
+  .serviceResponsive{
+    flex-wrap: wrap;
+  }
+  
+  .tabletImagenMobile{
+    display: none !important;
+      }
 }
+
+/* SAMSUNG GALAXY 8  */
+
+@media all and (min-width: 360px) and (max-width: 740px) {
+  
+  .imagenSvgDiseño{
+    margin-left: 15px !important;
+  }
+
+  .PortfolioText{
+    display: flex;
+    justify-content: center;
+    display: none !important;
+  }
+  
+  .PortfolioMobile{
+    display: block !important;
+  }
+
+  .widthPortfolio{
+    width: 330px !important;
+  
+  }
+
+  .contenedorImagenHeader{
+    margin-left: 0 !important;
+  }
+
+  .imagenDiseño{
+    object-fit: contain !important;
+     width: 310px !important;
+     height: 12px;
+     margin-right: 600px !important;
+    
+   }
+   
+   .imagenHeader{
+     position: absolute;
+     width: 100% !important;
+     top: 60%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+   }
+
+ 
+
+  .imagenServicios{
+  /* width: 750px; */
+  object-fit: contain !important;
+  position: absolute;
+      width: 60%;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+.marginServices{
+  margin-top: 0px !important;
+}
+
+.marginServicesBottom{
+  margin-bottom: 0px !important;
+}
+
+.imagenServiciosResponsive{
+  display: block !important;
+}
+
+.tabletImagenMobile{
+  display: block !important;
+}
+
+.brandingFooter{
+  display: none !important;
+}
+
+.botonVerMas{
+  width: 100px !important;
+}
+
+.botonVerMas:hover span {
+  padding-right: 10px !important;
+ }
+
+ 
+.englishHeader{
+  width: 350px !important;
+  margin-top: 100px;
+  margin-right: 100px !important;
+}
+
+
+.serviceResponsive{
+  flex-wrap: wrap;
+}
+
+
+
+}
+
+
 
 /* iPhone */
 @media all and (min-width: 375px) and (max-width: 414px) {
@@ -145,6 +422,68 @@ ul {
     color: white !important;
     text-shadow: 0 0 5px black;
   }
+
+  .tabletImagen {
+    display: none;
+  }
+
+  .PortfolioText{
+    display: flex;
+    justify-content: center;
+    display: none !important;
+  }
+  
+  .PortfolioMobile{
+    display: block !important;
+  }
+  .widthPortfolio{
+    width: 360px !important;
+  }
+
+ 
+  .marginServices{
+    margin-top: 0px !important;
+  }
+  
+  .marginServicesBottom{
+    margin-bottom: 0px !important;
+  }
+
+
+
+  .tabletImagenMobile{
+    display: none !important;
+      }
+    
+      .imagenServiciosResponsive{
+        display: block !important;
+      }
+
+
+      .brandingFooter{
+        display: none !important;
+      }
+
+      .botonVerMas{
+        width: 100px !important;
+      }
+
+      .botonVerMas:hover span {
+        padding-right: 10px !important;
+       }
+    
+  
+
+       .englishHeader{
+         width: 380px !important;
+         margin-top: 50px;
+       }
+
+
+       .serviceResponsive{
+        flex-wrap: wrap;
+      }
+      
 }
 
 
@@ -154,6 +493,12 @@ ul {
     display: flex !important;
     flex-wrap: wrap;
   }
+
+  .tabletImagenMobile{
+    width: 600px !important;
+    display: block !important;
+  }
+  
 }
 
 /* Servicios */
@@ -198,7 +543,7 @@ p {
 }
 
 .borderInputs {
-  border: 1px solid #6F3AFF;
+  border: 1px solid #FF0000;
 
 }
 
@@ -212,7 +557,7 @@ p {
 
 
 .btn-primary {
-  background-color: #6F3AFF !important;
+  background-color: #00ff55 !important;
   border-color: #6F3AFF !important;
 }
 
@@ -252,11 +597,388 @@ p {
   cursor: pointer;
 }
 
+.nav-link{
+  font-family: 'Neutra Text Alt', sans-serif !important; 
+  font-size: 15px !important;
+ 
+
+}
+
+
 .nav-link:hover {
-  color: #6F3AFF !important;
-  border-bottom: 1px solid #8559fc;
+  color: #FFC56D !important;
+  border-bottom: 1px solid #FFC56D;
 }
 
 .backgroundNav {
   background-color: #8559fc;
+}
+
+
+/* new aintech design  */
+body::-webkit-scrollbar {
+  width: 12px;
+                 /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #090909;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 1px solid white;  /* creates padding around scroll thumb */
+}
+
+.navbarBackground {
+  background-color: #030303  !important;
+}
+
+.headerMargin {
+  margin-top: 600px !important;
+}
+
+.headerText{
+  color: #ED002B !important;
+}
+
+.sizeHeaderText {
+  
+  font-size: 100px ;
+  padding-bottom: 100px;
+  
+
+}
+
+.contenedorBotonHeader{
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
+  
+}
+
+.contenedorHeader{
+  position:relative;
+  overflow: hidden;
+}
+
+.contenedorHeader .col-sm-12 {
+  position: relative;
+  z-index: 1; /* Asegura que el contenido de texto esté en la capa superior */
+}
+
+.imagenHeader{
+    position: absolute;
+      width: 50%;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+     
+}
+
+.contenedorImagenHeader{
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.wrapper3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.823),
+      rgba(0, 0, 0, 0.5)), center fixed url('./assets/wallpaper2.jpg');
+      height: 100vh;
+  background-size: cover;
+  opacity: 1;
+}
+
+.borderButtonHeader{
+  border: 1px solid #FF0000;
+
+ 
+}
+
+.btn-info{
+  background-color: #F8D49E !important;
+  border: 1px solid #F8D49E !important;
+  border-radius: 300px !important;
+ 
+}
+
+.pHeader{
+  margin-top: 260px;
+  font-size: 20px;
+  font-family: 'Neutra Text Alt', sans-serif;
+}
+
+.textColor{
+  color: #ED002B;
+}
+.bgColorAbout{
+  background-color: #ED002B ;
+}
+.imagenServicios{
+  /* width: 750px; */
+  object-fit: contain !important;
+  position: absolute;
+      width: 60%;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      filter: opacity(95%);
+}
+
+
+
+.textServicios{
+  font-family: 'VAGABONDED', sans-serif;
+  font-size: 44px;
+                                                
+}
+
+.textServiciosMobile{
+  font-family: 'VAGABONDED', sans-serif;
+  font-size: 50px;
+                                                
+}
+
+.widthIcons{
+  width: 90px;
+  height: 90px;
+}
+
+.parrafoServices{
+  line-height: 1.2;
+}
+
+.tabletImagen{
+  
+  width: 600px;
+}
+
+.efectoServices:hover{
+  cursor: pointer;
+  background:#ed002b8c ;
+  box-shadow: 0 0 5px #ED002B, 0 0 25px #ED002B, 0 0 50px #ED002B , 0 0 200px #ED002B ;
+}
+
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+}
+
+.loaderBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* La imagen se ajustará para cubrir toda la pantalla */
+  z-index: -1; /* Coloca la imagen detrás del contenido */
+}
+
+
+.loader {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  top: 240px;
+ 
+}
+
+.loader div {
+  position: absolute;
+  top: 0px;
+ 
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #ED002B;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.loader div:nth-child(1) {
+  left: 8px;
+  animation: flip1 0.6s infinite;
+}
+
+.loader div:nth-child(2) {
+  left: 8px;
+  animation: flip2 0.6s infinite;
+}
+
+.loader div:nth-child(3) {
+  left: 32px;
+  animation: flip2 0.6s infinite;
+}
+
+.loader div:nth-child(4) {
+  left: 56px;
+  animation: flip3 0.6s infinite;
+}
+
+@keyframes flip1 {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes flip3 {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes flip2 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+.bgColorPortfolio{
+  background-color: #A50028;
+  
+
+}
+
+
+.bgIconsFooter{
+  color: #ED002B !important;
+}
+
+.PortfolioText{
+  display: flex;
+  justify-content: center;
+
+}
+
+.PortfolioMobile{
+  display: none;
+}
+
+
+.widthPortfolio{
+  width: 1100px;
+}
+
+.marginServices{
+  margin-top: 100px;
+}
+
+.marginServicesBottom{
+  margin-bottom: 100px;
+}
+
+.brandingFooter{
+  font-family: 'Poppins', sans-serif;
+  font-size: 255px;
+  -webkit-text-stroke: 1px red;
+  color: transparent; 
+  filter: opacity(35%);
+}
+
+.brandingFooterResponsive{
+  font-family: 'Poppins', sans-serif;
+  font-size: 150px;
+  -webkit-text-stroke: 1px red;
+  color: transparent; 
+
+}
+
+.botonVerMas {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #ED002B;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 16px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+ }
+ 
+ .botonVerMas span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+ }
+ 
+ .botonVerMas span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+ }
+ 
+ .botonVerMas:hover span {
+  padding-right: 15px;
+ }
+ 
+ .botonVerMas:hover span:after {
+  opacity: 1;
+  right: 0;
+ }
+  
+.marqueeHover:hover{
+  color:  #ED002B;
+  cursor: pointer;
+}
+
+.flagUnitedStates{
+  width: 40px !important;
+}
+.fixOVerflow{
+  overflow-y: hidden ;
+}
+
+.logoLoginPage{
+  width: 100px;
+}
+
+
+.tabletImagenHome{
+  width: 450px;
+}
+
+
+.accordion-icon {
+  transition: transform 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) .accordion-icon {
+  transform: rotate(90deg);
+}
+
+
+
+.borderFaq{
+  border: 1px solid #ED002B !important;
+}
+
+.backgroundFaq{
+  background-color: #090909 !important;
 }

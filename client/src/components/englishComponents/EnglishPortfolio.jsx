@@ -1,9 +1,8 @@
-import React from "react";
-import portfolio from '../assets/portfolio.png'
-import {Link} from 'react-router-dom'
-export const Plans = () => {
-  return (
-    <>
+import React from 'react'
+import portfolio from '../../assets/portfolio.png'
+export const EnglishPortfolio = () => {
+    return (
+      <>
       <section className="container"  data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
@@ -29,7 +28,7 @@ export const Plans = () => {
   <div className="position-absolute top-50 start-50 translate-middle">
     <a href="https://www.instagram.com/aintech.agency" target="_blank" className="text-decoration-none">
     <button className="botonVerMas" >
-  <span>Ver Más</span>
+  <span>See More</span>
 </button>
     </a>
   </div>
@@ -39,5 +38,5 @@ export const Plans = () => {
         </div>
       </section>
     </>
-  );
-};
+    )
+}

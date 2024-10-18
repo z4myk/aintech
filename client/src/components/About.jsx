@@ -1,37 +1,36 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import devfocus from '../assets/devfocus.png'
-import responsive from '../assets/responsive.png'
-import seo from '../assets/seo.png'
+import React from "react";
+import tarjetaHeader from "../assets/tarjetaHeader.png";
 export const About = () => {
-    return (
-        <>
-            <section className="mb-5 pt-5 " id="nosotros" >
-                <div data-aos="zoom-in"  data-aos-duration="1500" >
-                    <h2 className="text-center mb-2">Sobre <span className="titles" >Nosotros</span></h2>
-                    <hr className='hr-titles mb-5' />
-                </div>
-                <div data-aos="zoom-in"  data-aos-duration="1500" className="container">
-                    <div className="d-flex justify-content-center text-center mb-5 shadow-lg p-5 cardsAbout-responsive ">
-                        <div className="mx-2" >
-                        <img src={devfocus} alt="developer" className="w-50"/>
-                        <h5 className="mt-2 mb-3">Te escuchamos</h5>
-                        <p  className=" text-secondary">Analizamos cada idea para llegar a la solución en el menor tiempo posible.</p>
-                        </div>
-                        <div className="mx-2 ">
-                           <img src={responsive} alt="responsive" className="w-50"/>
-                            <h5 className="mt-2 mb-3">Adaptable a cualquier dispositivo</h5>
-                            <p className=" text-secondary container">Tu web estará optimizada para una mejor experiencia de usuario.</p>
-                        </div>
-                        <div className="mx-2">
-                        <img src={seo} alt="SEO" className="w-50"/>
-                        <h5 className="mt-2 mb-3">No te preocupes, tenemos todo cubierto</h5>
-                        <p  className=" text-secondary">creamos software de punta a punta, no tenes que preocuparte de nada nosotros lo hacemos por vos.</p>
-                        </div>
-                      
-                    </div>
-                </div>
-            </section>
-        </>
-    )
-}
+  return (
+    <>
+      <section className="mb-5 pt-5 pb-5 " id="nosotros"
+        data-aos="fade-up"
+        
+        data-aos-duration="1500">
+        <div className="row"
+        >
+          <div className="col-sm-12 col-md-8">
+          <div className="mx-5 mt-2 ">         
+        </div>
+            <img src={tarjetaHeader} alt="Tarjeta diseño" className="w-100" />
+          </div>
+          <div className="col-sm-12 col-md-4 mt-5 pt-5">
+            <div className="mx-5 mt-5 text-light">
+              <hr className="w-75 text-light" />
+              <article>
+                  <p className="textColor">
+                    ¡Bienvenidos a <b>Aintech Agency!</b> <br />
+                    <span className="text-light">Somos más que una agencia, somos tus aliados creativos para llevar tu marca al siguiente nivel.</span></p>
+                    
+                    <p><span className="bgColorAbout">¿Listos para destacar en el mercado?</span><br />
+                    Ofrecemos servicios de branding y diseño de <i><b>primera calidad</b></i> para que tu negocio brille como <span className="textColor">nunca antes.</span>
+                  </p>
+                  <hr className="w-75 text-light" />
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};

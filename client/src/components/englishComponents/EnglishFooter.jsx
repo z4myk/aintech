@@ -1,11 +1,10 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import logoat from '../assets/logoat.png'
+import logoat from '../../assets/logoat.png'
 import { faInstagram, faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-export const Footer = () => {
-
+export const EnglishFooter = () => {
     return (
-        <footer className="py-5  text-center text-light" id="contacto">
+        <footer className="py-5  text-center text-light" >
             <h2 className="brandingFooter">BRANDING</h2>
             <h2 className="brandingFooterResponsive">BRAN<br/>DING</h2>
             <marquee className="">
@@ -20,7 +19,7 @@ export const Footer = () => {
             </marquee>
             <div className="container ">
             <img src={logoat} alt="Aintech LOGO" className="logoAintech" />
-            <h5><b>Contáctanos</b></h5>
+            <h5><b>Contact Us</b></h5>
             <span className="">E-mail: agencia@aintech.com.ar</span> <br />
             <div className="d-flex justify-content-center align-items-center gap-5 mt-2 mb-2 ">
                 <a href="https://www.facebook.com/Aintechagency" target="_blank"><FontAwesomeIcon icon={faFacebook} size="3x" className="bgIconsFooter "/></a>
