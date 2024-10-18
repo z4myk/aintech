@@ -9,7 +9,7 @@ export const SchemaMarkup = () => {
               "@type": "Organization",
               "name": "Aintech - Soluciones Digitales",
               "url": "https://aintech.com.ar/",
-              "logo": "${logoat}",
+              "logo": "https://res.cloudinary.com/dxc0vxy8m/image/upload/v1729257337/FOTOINSTAGRAMPRINCIPAL_cd9bji.png",
               "description": "¡Impulsa tu presencia en línea con nuestra agencia de diseño y desarrollo web! Ofrecemos soluciones creativas de Diseño Gráfico, Desarrollo Web y Hosting para potenciar tu marca.",
               "contactPoint": {
                 "@type": "ContactPoint",
